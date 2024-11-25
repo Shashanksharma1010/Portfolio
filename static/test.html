@@ -1,0 +1,46 @@
+<div class="mydiv">
+
+    <div class="div2">
+        <p>
+            hello
+        </p>
+    </div>
+
+    <div class="div1">
+
+    </div>
+</div>
+
+<style>
+    .mydiv {
+        position:relative;
+        width:300px;
+        height: 50vh;
+        z-index: 10;
+        background-color: aquamarine;
+    }
+
+    .mydiv p {
+        z-index:10;
+    }
+
+    .mydiv .div1 {
+        position: absolute;
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+        background-color: orange;
+        z-index:1;
+    }
+
+    .div2 {
+        position: absolute;
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+        background-color: yellow;
+        z-index:10;
+    }
+</style>
