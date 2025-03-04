@@ -23,7 +23,7 @@ This is a personal portfolio website developed using Flask, HTML, CSS, and JavaS
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/portfolio-website.git
+   git clone https://github.com/Shashanksharma1010/portfolio.git
    cd portfolio-website
    ```
 2. Create a virtual environment:
@@ -38,7 +38,7 @@ This is a personal portfolio website developed using Flask, HTML, CSS, and JavaS
    ```
 4. Run the application:
    ```bash
-   python app.py
+   python flask run
    ```
 5. Open a web browser and visit `http://127.0.0.1:5000/`
 
